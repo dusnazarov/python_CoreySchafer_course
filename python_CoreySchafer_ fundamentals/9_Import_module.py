@@ -1,13 +1,13 @@
 
 # //////////////////////////////////
-# import my_module as mm
+import my_module as mm
 
-# courses = ['History', 'Math', 'Physics', 'CompSci']
+courses = ['History', 'Math', 'Physics', 'CompSci']
 
-# index = mm.find_index(courses, 'CompSci')
+index = mm.find_index(courses, 'CompSci')
 
-# print(index)
-# print(mm.test)
+print(index)
+print(mm.test)
 
 
 # //////////////////////////////////
@@ -49,14 +49,12 @@
 # print(calendar.isleap(2017))
 # print(calendar.isleap(2020))
 
-
-
 # //////////////////////////////////
-import os
+# import os
 
-print(os.getcwd())  #  cvd - stands for Current Working Directory
+# print(os.getcwd())  #  cvd - stands for Current Working Directory
 
-print(os.__file__)
+# print(os.__file__)
 
 
 
